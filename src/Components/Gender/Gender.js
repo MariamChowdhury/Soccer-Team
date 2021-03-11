@@ -2,7 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
 const Gender = (props) => {
-  console.log(props.teamDetails);
   const { strGender } = props.teamDetails;
   let gender;
 

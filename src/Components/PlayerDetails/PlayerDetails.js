@@ -24,7 +24,6 @@ const PlayerDetails = () => {
       .then((data) => setTeamDetails(data.teams[0]));
   }, [teamId]);
 
-  console.log(teamDetails);
   return (
     <div className=" player-container  ">
       <div className="home-banner opacity">
@@ -66,13 +65,13 @@ const PlayerDetails = () => {
         </div>
       </div>
       <div className="footer ">
-        <a target="_blank" href={teamDetails.strTwitter}>
+        <a target="_blank" href={`https://$teamDetails.strTwitter`}>
           <img src={twitter} alt="" />{" "}
         </a>
-        <a target="_blank" href={teamDetails.strFacebook}>
+        <a target="_blank" href={`https://$teamDetails.strFacebook`}>
           <img src={facebook} alt="" />{" "}
         </a>
-        <a target="_blank" href={teamDetails.strYoutube}>
+        <a target="_blank" href={`https://$teamDetails.strYoutube`}>
           <img src={youtube} alt="" />{" "}
         </a>
       </div>
