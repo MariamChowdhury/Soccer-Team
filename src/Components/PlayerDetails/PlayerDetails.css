@@ -1,0 +1,20 @@
+.details-banner {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+.team-details-container {
+  background-color: #ffd880;
+  border-radius: 20px;
+}
+.team-image img {
+  height: 200px;
+}
+.footer img {
+  height: 50px;
+}
+.footer {
+  margin-left: 45%;
+}

@@ -1,0 +1,16 @@
+.player-container {
+  background-color: #af012d;
+}
+.home-banner {
+  background-image: url("../Images/banner.jpg");
+  height: 500px;
+  border: 2px solid #af012d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-banner h1 {
+  text-align: center;
+  margin-top: 180px;
+  font-size: 50px;
+}
