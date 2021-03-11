@@ -6,8 +6,9 @@
   transform: translate(-50%, -120%);
 }
 .team-details-container {
-  background-color: #ffd880;
+  background-color: #321f28;
   border-radius: 20px;
+  color:white
 }
 .team-image img {
   height: 200px;

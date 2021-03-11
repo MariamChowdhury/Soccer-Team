@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PlayerDetails from "./Components/PlayerDetails/PlayerDetails";
 import NoMatch from "./Components/NoMatch/NoMatch";
 

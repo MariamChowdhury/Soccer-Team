@@ -7,3 +7,8 @@
 .card-image {
   padding-top: 50px;
 }
+.card-body{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}

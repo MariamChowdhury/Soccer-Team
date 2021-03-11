@@ -1,10 +1,10 @@
 .player-container {
-  background-color: #af012d;
+  background-color: #ffdada;
 }
 .home-banner {
   background-image: url("../Images/banner.jpg");
   height: 500px;
-  border: 2px solid #af012d;
+  border: 2px solid #ffdada;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -62,7 +62,7 @@ const PlayerDetails = () => {
           </div>
         </div>
         <div className="team-description container">
-          <p className="text-white py-5">{teamDetails.strDescriptionEN}</p>
+          <p className=" py-5">{teamDetails.strDescriptionEN}</p>
         </div>
       </div>
       <div className="footer ">

@@ -14,12 +14,12 @@ const Player = (props) => {
   };
   return (
     <div className="card-container">
-      <Card style={{ width: "18rem" }}>
+      <Card className='card-body' style={{ width: "18rem" }}>
         <Card.Img className="card-image" variant="top" src={strTeamBadge} />
         <Card.Body>
           <Card.Title>{strTeam}</Card.Title>
           <Card.Text>Sport Type: {strSport}</Card.Text>
-          <Button onClick={() => handleTeam(idTeam)} variant="dark">
+          <Button onClick={() => handleTeam(idTeam)} variant="light">
             Explore <FontAwesomeIcon icon={faLongArrowAltRight} />
           </Button>
         </Card.Body>
